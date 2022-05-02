@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bin2Dec</title>
+    
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Arvo:regular,italic,700,700italic" rel="stylesheet" />
+
+</head>
+<body>
+
+    <header class="header">
+        <h1 class="header__title">Bin2Dec</h1>
+    </header>
+
+    <main>
+        
+        <div class="trans">
+            <div class="trans__bin">
+                <label class="trans__label" for="bin">Binary</label>
+                <input type="text" class="trans__input" id="bin">
+            </div>
+
+            <img class="icon" src="assets/img/right-arrow.png" alt="Right Arrow">
+
+            <div class="trans__dec">
+                <label class="trans__label" for="dec">Decimal</label>
+                <input type="text" class="trans__input" id="dec">
+            </div>
+        </div>
+
+        <div id="error"></div>
+
+    </main>
+    
+    <footer class="footer"></footer>
+
+    <script src="js/app.js" type="module"></script>
+
+</body>
+</html>

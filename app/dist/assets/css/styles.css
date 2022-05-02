@@ -1,0 +1,56 @@
+body {
+    font-family: 'Arvo', serif;
+    background: #1B4079;
+}
+
+.header {
+    background: black;
+}
+
+.header__title {
+    color: #fdfdfd;
+    font-size: 2.25rem;
+    padding: 1rem;
+}
+
+.trans{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15%;
+}
+
+.trans__label{
+    font-size: 1.5rem;
+    color: #fdfdfd;
+}
+
+.trans__bin, .trans__dec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.trans__input{
+    height: 75px;
+    font-size: 1.5rem;
+    margin: 3.5rem;
+    box-shadow: 2px 3px 1px grey;
+}
+
+.icon{
+    width: 10%;
+}
+
+#error{
+    margin-bottom: 10%;
+    text-align: center;
+    color: #7A9CD0;
+    font-size: 2rem;
+
+}
+
+.footer{
+    background: black;
+    height: 50px;
+}
